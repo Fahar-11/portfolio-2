@@ -1,0 +1,164 @@
+*{
+    margin: none;
+    padding: none;
+}
+body {
+    background: #f3f5f9
+}
+
+h1{
+    color: #0f056b;
+}
+
+h2{
+    color: #0f056b;
+    margin:-1px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;     
+}
+
+h3{
+    font-size: 20px;    
+    color: #0f056b; 
+    text-align: center;
+
+}
+
+p{
+    color: #0f056b;
+    text-align: center;
+    font-size: 15px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;  
+    text-align: center;
+    background: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background: white;
+    position: fixed ;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+header img{
+    width: 80px;
+}
+
+.salut{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.salut .devweb{
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 5px;
+}
+
+.imgmilieu{
+    display: flex;
+    justify-content: center;
+}
+
+.imgmilieu img{
+    width: 420px;
+   position: relative;
+   right: 10px;
+   margin-top: 40px;
+}
+
+section{
+    margin-top: 100px;
+}
+
+.contact{
+    color: #0f056b;
+    font-weight: 500;
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    margin-left: 90px;
+}
+
+form {
+    /* On centre le formulaire */
+   
+    width: 400px;
+    /* Le contour du formulaire */
+    padding: 0.5em;
+    border: 2px solid #0f056b;
+    border-radius: 2em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Taille et alignement uniformes */
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+ 
+    /* Taille uniforme pour des champs */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* On utilise la même bordure que pour le formulaire */
+    border: 2px solid #0f056b;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* On rajoute une mise en avant pour les éléments avec
+       le focus. */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* On aligne les textes sur plusieurs lignes avec leur
+       libellé. */
+    vertical-align: top;
+  
+    /* On fournit un peut d'espace pour saisir du texte. */
+    height: 5em;
+  
+    /* On permet de redimensionner verticalement. */
+    resize: vertical;
+  }
+  
+  .button {
+    /* On aligne les boutons avec les champs texte. */
+    padding-left: 90px; /* La même taille que les libellés */
+  }
+
