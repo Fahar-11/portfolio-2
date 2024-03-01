@@ -1,60 +1,67 @@
 * {
-    margin: none;
-    padding: none;
-  }
-  
-  body {
+  margin: none;
+  padding: none;
+}
 
-    background: #f3f5f9;
-    
-    
-    header {
-        display: flex;
-        justify-content: center;
-        background: white;
-        position: fixed;
-        background-color: white;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 100;
-        
-        img{
-            width: 80px;
-          }
-    
+body {
+
+  background: #f3f5f9;
+
+
+  header {
+    display: flex;
+    justify-content: center;
+    background: white;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
+    img {
+      width: 80px;
     }
 
-    
-    
-    h1 {
-        color: #0f056b;
-      }
-      
-      h2 {
-        color: #0f056b;
-        margin: -1px;
-        font-family: "DM Serif Display", serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 20px;
-      }
-      
-      h3 {
-        font-size: 20px;
-        color: #0f056b;
-        text-align: center;
-      }
+  }
 
-      p {
-        color: #0f056b;
-        text-align: center;
-        font-size: 15px;
-        font-family: "DM Serif Display", serif;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 15px;
-        text-align: center;
+
+
+  h1 {
+    color: #0f056b;
+  }
+
+  h2 {
+    color: #0f056b;
+    margin: -1px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+    color: #0f056b;
+    text-align: center;
+    padding: 30px;
+  }
+
+  h4 {
+    color: #0f056b;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  p {
+    color: #0f056b;
+    text-align: center;
+    font-size: 15px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
   }
 
   .salut {
@@ -62,22 +69,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+
   }
 
-    
-.devweb {
+
+  .devweb {
     font-size: 15px;
     font-weight: 100;
     padding-top: 5px;
   }
 
 
-    .imgmilieu {
+  .imgmilieu {
     display: flex;
     justify-content: center;
   }
-  
+
   .imgmilieu img {
     width: 420px;
     position: relative;
@@ -89,7 +96,90 @@
     margin-top: 100px;
   }
 
-    .contact {
+  .forma-web {
+    background-image: url(images/img-dev-web.png);
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 60px;
+  }
+
+  .forma-fac {
+    background-image: url(images/img-bibli-fac.png);
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 60px;
+  }
+
+  .forma-bac {
+    background-image: url(images/img-school.png);
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 60px;
+  }
+
+  .html {
+
+    img {
+      width: 80px;
+    }
+
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .css {
+    img {
+      width: 55px;
+    }
+
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .js {
+    img {
+      width: 60px;
+    }
+
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .figma {
+    img {
+      width: 50px;
+    }
+
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
     color: #0f056b;
     font-weight: 500;
     font-family: "DM Serif Display", serif;
@@ -100,9 +190,9 @@
     flex-direction: column;
     align-items: center;
   }
-  
 
-  
+
+
   form {
     /* On centre le formulaire */
     width: 400px;
@@ -112,60 +202,57 @@
     border-radius: 2em;
 
     ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      
-      form li+li {
-        margin-top: 1em;
-      }
-
-      label {
-        /* Taille et alignement uniformes */
-        display: inline-block;
-        width: 75px;
-        text-align: right;
-      }
-
- 
-      input,
-      textarea {
-      
-        /* Taille uniforme pour des champs */
-        width: 300px;
-        box-sizing: border-box;
-      
-        /* On utilise la même bordure que pour le formulaire */
-        border: 2px solid #0f056b;
-      }
-      
-      input:focus,
-      textarea:focus {
-        /* On rajoute une mise en avant pour les éléments avec
-             le focus. */
-        border-color: #000;
-      }
-      
-      textarea {
-        /* On aligne les textes sur plusieurs lignes avec leur
-             libellé. */
-        vertical-align: top;
-      
-        /* On fournit un peut d'espace pour saisir du texte. */
-        height: 5em;
-      
-        /* On permet de redimensionner verticalement. */
-        resize: vertical;
-      }
-      
-      .button {
-        padding-left: 90px;
-        margin-left: 90px;
-      }
-    
+      list-style: none;
+      padding: 0;
+      margin: 0;
     }
-}
-  
 
- 
+    form li+li {
+      margin-top: 1em;
+    }
+
+    label {
+      /* Taille et alignement uniformes */
+      display: inline-block;
+      width: 75px;
+      text-align: right;
+    }
+
+
+    input,
+    textarea {
+
+      /* Taille uniforme pour des champs */
+      width: 300px;
+      box-sizing: border-box;
+
+      /* On utilise la même bordure que pour le formulaire */
+      border: 2px solid #0f056b;
+    }
+
+    input:focus,
+    textarea:focus {
+      /* On rajoute une mise en avant pour les éléments avec
+             le focus. */
+      border-color: #000;
+    }
+
+    textarea {
+      /* On aligne les textes sur plusieurs lignes avec leur
+             libellé. */
+      vertical-align: top;
+
+      /* On fournit un peut d'espace pour saisir du texte. */
+      height: 5em;
+
+      /* On permet de redimensionner verticalement. */
+      resize: vertical;
+    }
+
+    .button {
+      padding-left: 90px;
+      margin-left: 90px;
+    }
+
+  }
+}

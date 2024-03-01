@@ -36,6 +36,12 @@ body h3 {
   font-size: 20px;
   color: #0f056b;
   text-align: center;
+  padding: 30px;
+}
+body h4 {
+  color: #0f056b;
+  text-align: center;
+  padding-top: 20px;
 }
 body p {
   color: #0f056b;
@@ -70,6 +76,76 @@ body .imgmilieu img {
 }
 body section {
   margin-top: 100px;
+}
+body .forma-web {
+  background-image: url(images/img-dev-web.png);
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 60px;
+}
+body .forma-fac {
+  background-image: url(images/img-bibli-fac.png);
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 60px;
+}
+body .forma-bac {
+  background-image: url(images/img-school.png);
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 60px;
+}
+body .html {
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body .html img {
+  width: 80px;
+}
+body .css {
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body .css img {
+  width: 55px;
+}
+body .js {
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body .js img {
+  width: 60px;
+}
+body .figma {
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body .figma img {
+  width: 50px;
 }
 body .contact {
   color: #0f056b;
@@ -115,12 +191,12 @@ body form textarea {
 body form input:focus,
 body form textarea:focus {
   /* On rajoute une mise en avant pour les éléments avec
-       le focus. */
+         le focus. */
   border-color: #000;
 }
 body form textarea {
   /* On aligne les textes sur plusieurs lignes avec leur
-       libellé. */
+         libellé. */
   vertical-align: top;
   /* On fournit un peut d'espace pour saisir du texte. */
   height: 5em;
