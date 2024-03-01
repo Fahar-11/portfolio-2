@@ -1,164 +1,135 @@
-*{
-    margin: none;
-    padding: none;
+@charset "UTF-8";
+* {
+  margin: none;
+  padding: none;
 }
+
 body {
-    background: #f3f5f9
+  background: #f3f5f9;
 }
-
-h1{
-    color: #0f056b;
+body header {
+  display: flex;
+  justify-content: center;
+  background: white;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
-
-h2{
-    color: #0f056b;
-    margin:-1px;
-    font-family: "DM Serif Display", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 20px;     
+body header img {
+  width: 80px;
 }
-
-h3{
-    font-size: 20px;    
-    color: #0f056b; 
-    text-align: center;
-
+body h1 {
+  color: #0f056b;
 }
-
-p{
-    color: #0f056b;
-    text-align: center;
-    font-size: 15px;
-    font-family: "DM Serif Display", serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 15px;  
-    text-align: center;
-    background: white;
+body h2 {
+  color: #0f056b;
+  margin: -1px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
 }
-
-header{
-    display: flex;
-    justify-content: center;
-    background: white;
-    position: fixed ;
-    background-color: white;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
+body h3 {
+  font-size: 20px;
+  color: #0f056b;
+  text-align: center;
 }
-
-header img{
-    width: 80px;
+body p {
+  color: #0f056b;
+  text-align: center;
+  font-size: 15px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
 }
-
-.salut{
-    margin-top: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
+body .salut {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.salut .devweb{
-    font-size: 15px;
-    font-weight: 100;
-    padding-top: 5px;
+body .devweb {
+  font-size: 15px;
+  font-weight: 100;
+  padding-top: 5px;
 }
-
-.imgmilieu{
-    display: flex;
-    justify-content: center;
+body .imgmilieu {
+  display: flex;
+  justify-content: center;
 }
-
-.imgmilieu img{
-    width: 420px;
-   position: relative;
-   right: 10px;
-   margin-top: 40px;
+body .imgmilieu img {
+  width: 420px;
+  position: relative;
+  right: 10px;
+  margin-top: 40px;
 }
-
-section{
-    margin-top: 100px;
+body section {
+  margin-top: 100px;
 }
-
-.contact{
-    color: #0f056b;
-    font-weight: 500;
-    font-family: "DM Serif Display", serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+body .contact {
+  color: #0f056b;
+  font-weight: 500;
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.button{
-    margin-left: 90px;
+body form {
+  /* On centre le formulaire */
+  width: 400px;
+  /* Le contour du formulaire */
+  padding: 0.5em;
+  border: 2px solid #0f056b;
+  border-radius: 2em;
 }
-
-form {
-    /* On centre le formulaire */
-   
-    width: 400px;
-    /* Le contour du formulaire */
-    padding: 0.5em;
-    border: 2px solid #0f056b;
-    border-radius: 2em;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  form li + li {
-    margin-top: 1em;
-  }
-  
-  label {
-    /* Taille et alignement uniformes */
-    display: inline-block;
-    width: 75px;
-    text-align: right;
-  }
-  
-  input,
-  textarea {
- 
-    /* Taille uniforme pour des champs */
-    width: 300px;
-    box-sizing: border-box;
-  
-    /* On utilise la même bordure que pour le formulaire */
-    border: 2px solid #0f056b;
-  }
-  
-  input:focus,
-  textarea:focus {
-    /* On rajoute une mise en avant pour les éléments avec
+body form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+body form form li + li {
+  margin-top: 1em;
+}
+body form label {
+  /* Taille et alignement uniformes */
+  display: inline-block;
+  width: 75px;
+  text-align: right;
+}
+body form input,
+body form textarea {
+  /* Taille uniforme pour des champs */
+  width: 300px;
+  box-sizing: border-box;
+  /* On utilise la même bordure que pour le formulaire */
+  border: 2px solid #0f056b;
+}
+body form input:focus,
+body form textarea:focus {
+  /* On rajoute une mise en avant pour les éléments avec
        le focus. */
-    border-color: #000;
-  }
-  
-  textarea {
-    /* On aligne les textes sur plusieurs lignes avec leur
+  border-color: #000;
+}
+body form textarea {
+  /* On aligne les textes sur plusieurs lignes avec leur
        libellé. */
-    vertical-align: top;
-  
-    /* On fournit un peut d'espace pour saisir du texte. */
-    height: 5em;
-  
-    /* On permet de redimensionner verticalement. */
-    resize: vertical;
-  }
-  
-  .button {
-    /* On aligne les boutons avec les champs texte. */
-    padding-left: 90px; /* La même taille que les libellés */
-  }
+  vertical-align: top;
+  /* On fournit un peut d'espace pour saisir du texte. */
+  height: 5em;
+  /* On permet de redimensionner verticalement. */
+  resize: vertical;
+}
+body form .button {
+  padding-left: 90px;
+  margin-left: 90px;
+}
 
+/*# sourceMappingURL=portfolio-responsive.css.map */
