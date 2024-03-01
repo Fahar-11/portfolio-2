@@ -29,6 +29,7 @@ body {
 
   h1 {
     color: #0f056b;
+
   }
 
   h2 {
@@ -38,6 +39,7 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
+    text-shadow: 1px 1px 2px grey;
   }
 
   h3 {
@@ -45,12 +47,14 @@ body {
     color: #0f056b;
     text-align: center;
     padding: 30px;
+    text-shadow: 1px 1px 1px grey;
   }
 
   h4 {
     color: #0f056b;
     text-align: center;
     padding-top: 20px;
+    text-shadow: 1px 1px 1px grey;
   }
 
   p {
@@ -124,13 +128,14 @@ body {
     }
 
     background-color: white;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 30px;
     padding: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    box-shadow: 3px 3px 3px grey;
   }
 
 
@@ -147,6 +152,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    box-shadow: 3px 3px 3px grey;
   }
 
   .js {
@@ -162,6 +168,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    box-shadow: 3px 3px 3px grey;
   }
 
   .figma {
@@ -177,6 +184,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    box-shadow: 3px 3px 3px grey;
   }
 
   .contact {
@@ -195,7 +203,7 @@ body {
 
   form {
     /* On centre le formulaire */
-    width: 400px;
+    width: 390px;
     /* Le contour du formulaire */
     padding: 0.5em;
     border: 2px solid #0f056b;

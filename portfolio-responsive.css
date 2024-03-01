@@ -31,17 +31,20 @@ body h2 {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
+  text-shadow: 1px 1px 2px grey;
 }
 body h3 {
   font-size: 20px;
   color: #0f056b;
   text-align: center;
   padding: 30px;
+  text-shadow: 1px 1px 1px grey;
 }
 body h4 {
   color: #0f056b;
   text-align: center;
   padding-top: 20px;
+  text-shadow: 1px 1px 1px grey;
 }
 body p {
   color: #0f056b;
@@ -97,13 +100,14 @@ body .forma-bac {
 }
 body .html {
   background-color: white;
-  margin-top: 50px;
+  margin-top: 30px;
   border-radius: 30px;
   padding: 30px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  box-shadow: 3px 3px 3px grey;
 }
 body .html img {
   width: 80px;
@@ -117,6 +121,7 @@ body .css {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  box-shadow: 3px 3px 3px grey;
 }
 body .css img {
   width: 55px;
@@ -130,6 +135,7 @@ body .js {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  box-shadow: 3px 3px 3px grey;
 }
 body .js img {
   width: 60px;
@@ -143,6 +149,7 @@ body .figma {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  box-shadow: 3px 3px 3px grey;
 }
 body .figma img {
   width: 50px;
@@ -160,7 +167,7 @@ body .contact {
 }
 body form {
   /* On centre le formulaire */
-  width: 400px;
+  width: 390px;
   /* Le contour du formulaire */
   padding: 0.5em;
   border: 2px solid #0f056b;
